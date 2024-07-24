@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import './formulario.css';
 import MyNavbar from '../navbar/Navbar';
 import recibirFecha from '../../../service/fechaService'
-import { useNavigate } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
 
 // eslint-disable-next-line react/prop-types
 function Formulario({ formType }) {
@@ -12,7 +12,7 @@ function Formulario({ formType }) {
   const [date, setDate] = useState('');
   // Estado para el tipo de formulario
   const [formNumber, setFormNumber] = useState('');
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   
 
@@ -43,8 +43,8 @@ function Formulario({ formType }) {
     e.preventDefault();// Prevenir el comportamiento por defecto del formulario
     try {
         await recibirFecha(date, formNumber)
-        navigate('/areadetrabajo/fecha')
-        
+        // navigate('/areadetrabajo/fecha')
+
     } catch (error) {
         console.log(error)
     }

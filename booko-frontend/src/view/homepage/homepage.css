@@ -1,0 +1,14 @@
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; 
+    flex-wrap: wrap; 
+    padding: 1rem;
+  }
+  
+  .cardsContainer > div {
+    flex: 1 1 auto; 
+    max-width: 18rem; 
+  }
+  
+  

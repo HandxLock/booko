@@ -1,0 +1,24 @@
+/* Asegura que el contenedor ocupe toda la altura de la página menos la altura de la navbar */
+.formulario-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 56px); /* 100% de la altura de la ventana menos la altura de la navbar */
+  background-color: #f8f9fa; /* Fondo gris claro para el fondo de la página */
+  padding: 1rem; /* Espacio alrededor del contenedor */
+}
+
+/* Estilos para la caja del formulario */
+.formulario {
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: #fff; /* Fondo blanco para el formulario */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+}
+
+/* Estilos para el input de fecha */
+.calendario {
+  margin-bottom: 1rem;
+}

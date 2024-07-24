@@ -1,0 +1,13 @@
+.card-img-top {
+    width: 100%; /* Full width of the card */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+
+  .cardText {
+    height: 80px;
+  }
+
+  .cardButton {
+    align-items: center;
+  }

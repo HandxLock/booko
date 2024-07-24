@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import './formulario.css';
@@ -6,6 +6,7 @@ import MyNavbar from '../navbar/Navbar';
 import recibirFecha from '../../../service/fechaService'
 import { useNavigate } from 'react-router-dom'
 
+// eslint-disable-next-line react/prop-types
 function Formulario({ formType }) {
   // Estado para la fecha
   const [date, setDate] = useState('');
@@ -47,11 +48,8 @@ function Formulario({ formType }) {
     } catch (error) {
         console.log(error)
     }
-    // Preparar los datos para enviar
-    
 
-    // Datos Capturados
-    console.log('Datos del formulario:', formData);
+
    
   };
 

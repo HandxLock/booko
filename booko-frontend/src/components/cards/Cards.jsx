@@ -12,7 +12,7 @@ function ZonadetrabajoCard(props) {
           {props.text}
         </Card.Text>
         <div className='buttonContainer'>
-          <Button variant="primary" className='cardButton'><a href={props.ruta} className="btn btn-primary">Reserva Ahora</a>
+          <Button variant="primary" className='cardButton'><a href={props.ruta} className="btn btn-primary">Reservar Ahora</a>
           </Button>
         </div>  
       </Card.Body>

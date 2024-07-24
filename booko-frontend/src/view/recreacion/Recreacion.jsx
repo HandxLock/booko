@@ -1,9 +1,9 @@
 import React from 'react'
-import Calendario from '../../components/calendario/Calendario'
+import Formulario from '../../components/formulario/Formulario'
 
 const Recreacion = () => {
   return (
-    <Calendario/>
+    <Formulario formType="recreacion"/>
   )
 }
 

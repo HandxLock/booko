@@ -7,14 +7,14 @@ import "./navbar.css"
 
 function MyNavbar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary dark">
       <Container>
         <Navbar.Brand href="/">Booko</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>            
+            <Nav.Link href="/">Inicio</Nav.Link>
+            <Nav.Link href="/">Formulario</Nav.Link>            
           </Nav>
         </Navbar.Collapse>
       </Container>

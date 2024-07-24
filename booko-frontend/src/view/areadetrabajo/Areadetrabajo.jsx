@@ -1,9 +1,11 @@
 import React from 'react'
-import Calendario from '../../components/calendario/Calendario'
+import Formulario from '../../components/formulario/Formulario'
 
 const Areadetrabajo = () => {
   return (
-    <Calendario/>
+    <div>
+        <Formulario formType="areadetrabajo"/>
+    </div>
   )
 }
 
